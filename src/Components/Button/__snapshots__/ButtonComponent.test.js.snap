@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component Snapshot 1`] = `
+HTMLCollection [
+  <button
+    class="primary undefined btnStyle"
+  />,
+  <button
+    class="warning undefined btnStyle"
+  />,
+  <button
+    class="danger undefined btnStyle"
+  />,
+  <button
+    class="success undefined btnStyle"
+  />,
+]
+`;
