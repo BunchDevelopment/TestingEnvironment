@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "@testing-library/react": "^9.1.4",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
   "scripts": {
@@ -30,7 +28,9 @@
     ]
   },
   "devDependencies": {
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0"
+    "@babel/core": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
   }
 }

@@ -17,12 +17,12 @@ class TestingButton extends React.Component {
     const { count } = this.state;
     return (
       <>
-        <Primary testid="testOne" buttonSize="medium" onClick={this.count}>
+        {/* <Primary testid="testOne" buttonSize="medium" onClick={this.count}>
           {count}
         </Primary>
         <Primary testid="test2" buttonSize="medium" onClick={this.count}>
           {count}
-        </Primary>
+        </Primary> */}
       </>
     );
   }
