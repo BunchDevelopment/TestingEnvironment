@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+p {
+  font-size: 1.2em;
+  padding-right: 5vw;
+}
+
+.softwareCatalogContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fullFlex {
+  flex-basis: 100%;
+}
+.flexContainer {
+  display: flex;
+  min-width: 60vw;
+  flex-flow: row wrap;
+  align-content: space-around;
+  padding-left: 5%;
+  position: relative;
+  min-height: 20vh;
+  padding: 0;
+}
+.flexContainBoxShadow {
+  box-shadow: -1px -1px 6px 2px #00000073;
+  margin: 5em;
+}
+
+.flexContainer > div {
+  min-width: 20vw;
+}
+
+.addDataSource {
+  padding: 0 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.addSourceAbsolute {
+  position: absolute;
+  bottom: 0;
+}
+.testspan {
+  position: relative;
+  top: -1.5px;
+  right: 0;
+}
+
+.MakeBradHappy {
+  color: rgba(252, 25, 25, 0.76);
+}

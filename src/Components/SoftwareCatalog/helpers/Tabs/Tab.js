@@ -12,7 +12,7 @@ class Tab extends React.Component {
       props: { activeTab, label }
     } = this;
 
-    let className = "tab-list-item";
+    let className = `tab-list-item  ${this.props.hasData ? '' : 'noData'}`;
 
     if (activeTab === label) {
       className += " tab-list-active";

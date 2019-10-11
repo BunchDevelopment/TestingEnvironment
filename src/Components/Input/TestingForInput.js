@@ -3,12 +3,12 @@ import { Success } from "../Button/Button";
 
 class Input extends React.Component {
   state = {
-    text: ''
-  }
+    text: ""
+  };
   render() {
-    const {submitForm} = this.props;
-    const {text} = this.state;
-    
+    const { submitForm } = this.props;
+    const { text } = this.state;
+
     return (
       <form
         data-testid="input-form"
